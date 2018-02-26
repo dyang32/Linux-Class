@@ -1,0 +1,7 @@
+#!/bin/bash
+# Week 5 Peer Review
+# Don Yang
+# CSCI 2461-70 Computer Networking 2 - Linux
+
+# Reviewing ShueLee8226 week 5 script
+# Shue only has a readme.md file, I'm still waiting for his script
