@@ -1,0 +1,29 @@
+# Peer Review
+# Don Yang
+# I choose to review KiaSia's script
+
+# For some reason I cannot run the script but when I input the individual commands it seems to work.
+# The three commands that she gives in her script seem to work just fine.
+# She gives a good description of what each command does. Everything looks excellent.
+
+
+
+
+
+
+
+#!/bin/bash
+
+#simple script to find /disk through cmd line
+
+#list contents of directory and pipe to more, search for /disk
+
+ls /dev | more
+
+#change directory
+
+cd /dev/disk
+
+#explore disks. should show all disks and external drives (usb/cd)
+
+ls -F /dev/disk/by-id
