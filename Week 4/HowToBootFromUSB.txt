@@ -1,0 +1,23 @@
+How to boot linux from a USB drive
+
+What you will need to do this:
+A computer (to download, run, and setup)
+A iso copy of a Linux operating system
+The program Rufus (can be downloaded for free)
+A USB memory card (16 GB or higher)
+
+1. Download an iso copy of a Linux OS, (although you can choose any you prefer, I recommend Ubuntu, can be found here: https://www.ubuntu.com/download/desktop)
+
+2. Download the latest copy of Rufus (can be downloaded from the following website:  https://rufus.akeo.ie/)
+
+3. Plug in the usb drive into computer
+
+4. Run Rufus
+In the Device menu, pick your usb device you want to use
+In the “New volume label” write a name you would like to use
+Make sure “Create a bootable disk using” is checked
+Select the drop down menu to the right of “Create a bootable disk using” and make sure it says “ISO Image”
+To the right of that click the small disk icon and select your ISO image you downloaded
+Click “Start” and the program will start formatting your usb, once it is done you are finished
+
+5. To run the usb you must change the boot options on the computer to boot from the usb stick
